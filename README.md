@@ -4,5 +4,5 @@
 - Chaque dossier présente l'organisation suivante :
   - `nom_du_dossier.py` → **Le code Python** écrit en live durant la partie
   - `exercices.md`      → **L'énoncé des deux exercices** de la partie (facile / difficile)
-  - `correction.py`     → **La correction** des deux exercices
+  - `correction.py (ou .md)`     → **La correction** des deux exercices
   - `fiche_revision.md`   → **Fiche révision** de la partie
