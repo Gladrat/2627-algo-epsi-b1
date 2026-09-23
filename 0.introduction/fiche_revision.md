@@ -1,4 +1,4 @@
-| 🧠 **À retenir :** avant de coder, il faut d'abord savoir expliquer précisément la solution.
+> 🧠 **À retenir :** avant de coder, il faut d'abord savoir expliquer précisément la solution.
 
 # Concepts clés
 
@@ -33,4 +33,4 @@ Avant le code :
 - donner des instructions trop vagues ;
 - regarder uniquement le résultat final sans suivre les étapes intermédiaires.
 
-| ✅ **Je sais faire si :** je peux expliquer une solution sans code, identifier entrées / traitements / sorties, faire une trace simple puis traduire la démarche en Python.
+> ✅ **Je sais faire si :** je peux expliquer une solution sans code, identifier entrées / traitements / sorties, faire une trace simple puis traduire la démarche en Python.
