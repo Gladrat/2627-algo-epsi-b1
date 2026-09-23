@@ -7,7 +7,7 @@ Pour une commande de 3 places :
 - frais fixes : 2,50 € ;
 - frais de service : 5 % du prix des places, hors frais fixes.
 
-Sans commencer par Python :
+Sans coder en Python :
 
 1. identifiez les entrées ;
 2. écrivez les étapes de l'algorithme ;
@@ -24,7 +24,7 @@ Données :
 - le drone peut transporter au maximum **2 500 g** par trajet ;
 - une commande contient **17 batteries**.
 
-Sans commencer par Python :
+Sans coder en Python :
 
 1. déterminez combien de batteries le drone peut transporter au maximum par trajet ;
 2. déterminez combien de trajets complets de capacité maximale il peut effectuer ;
