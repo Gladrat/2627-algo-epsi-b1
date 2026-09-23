@@ -1,4 +1,8 @@
-**Problème n°1 :** Convertir une durée exprimée en secondes en heures, minutes et secondes.
+## Problème n°1 
+
+Convertir une durée exprimée en secondes en heures, minutes et secondes.  
+
+**Les étapes algorithmiques :**
 
 1.  recevoir une durée en secondes
 2.  calculer le nombre d'heures entières
@@ -17,3 +21,16 @@
 | **ligne 4**      |       1 |         400 |         - |         - |
 | **ligne 5**      |       1 |         400 |         6 |         - |
 | **ligne 6**      |       1 |         400 |         6 |        40 |
+
+## Code Python
+
+```python
+duration = 99999999
+
+hours = duration // 3600
+remaining = duration % 3600
+minutes = remaining // 60
+secondes = remaining % 60
+
+print(hours, minutes, secondes)
+```
