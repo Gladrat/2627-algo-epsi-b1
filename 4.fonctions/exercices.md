@@ -38,4 +38,4 @@ Décomposez le problème en fonctions. La fonction finale devra être :
 is_valid_date(day, month, year)
 ```
 
-Ajoutez ensuite des tests.
+Ajoutez ensuite des tests avec `assert`.

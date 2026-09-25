@@ -9,3 +9,4 @@ def limit_volume(volume):
 
 assert limit_volume(275) == 100
 assert limit_volume(12) == 12
+assert limit_volume(-50) == 0
