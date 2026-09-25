@@ -6,6 +6,7 @@ print(calcul_tva(120))
 print(calcul_tva(75))
 print(calcul_tva(230))
 print(calcul_tva(500))
+print(calcul_tva(147))
 
 
 def rectangle_area(width, eight):
@@ -46,3 +47,5 @@ def imprimer_etiquette_livraison(poids, distance, option):
     cout = cout_total(poids, distance, option)
     # imprimer l'étiquette
 
+imprimer_etiquette_livraison()
+rectangle_area()
