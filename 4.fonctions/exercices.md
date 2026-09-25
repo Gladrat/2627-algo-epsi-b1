@@ -37,3 +37,5 @@ Décomposez le problème en fonctions. La fonction finale devra être :
 ```python
 is_valid_date(day, month, year)
 ```
+
+Ajoutez ensuite des tests.
