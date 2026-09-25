@@ -42,6 +42,8 @@ Ajoutez ensuite des tests avec `assert`.
 
 # Exercice bonus - refactorisation
 
+Reprendre le calcul d'heure de la partie 0 et montrer qu'une fonction évite la duplication.
+
 ```python
 duration = 99999999
 
@@ -53,7 +55,12 @@ secondes = remaining % 60
 print(hours, minutes, secondes)
 ```
 
+Comment améliorer encore la fonction si l'on souhaite réutiliser le résultat au lieu de seulement l'afficher.
+
 # Exercice bonus - refactorisation 2
+
+1. réécrivez le programme avec au moins trois fonctions ;
+2. ajoutez un test par fonction.
 
 ```python
 quantity = 4
