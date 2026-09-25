@@ -59,6 +59,8 @@ Comment améliorer encore la fonction si l'on souhaite réutiliser le résultat 
 
 # Exercice bonus - refactorisation 2
 
+| **A faire en binôme.** Le programme fonctionne déjà : le problème est sa structure.
+
 1. Réécrivez le programme avec au moins trois fonctions
 2. Ajoutez un test par fonction
 
