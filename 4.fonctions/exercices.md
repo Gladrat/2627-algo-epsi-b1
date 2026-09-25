@@ -59,8 +59,8 @@ Comment améliorer encore la fonction si l'on souhaite réutiliser le résultat 
 
 # Exercice bonus - refactorisation 2
 
-1. réécrivez le programme avec au moins trois fonctions ;
-2. ajoutez un test par fonction.
+1. Réécrivez le programme avec au moins trois fonctions
+2. Ajoutez un test par fonction
 
 ```python
 quantity = 4
