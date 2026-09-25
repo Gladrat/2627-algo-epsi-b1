@@ -30,3 +30,23 @@ Un programme télécharge un fichier de **850 Mo**.
 3. affiche la quantité téléchargée pendant la dernière seconde.
 
 Avant de coder, identifiez les états qui doivent évoluer pendant la boucle.
+
+# Lecture de code — 5 min
+
+```python
+value = 3
+total = 0
+
+while value < 10:
+    total = total + value
+    value = value + 2
+
+print(value)
+print(total)
+```
+
+Sans exécuter :
+
+1. combien de fois la boucle s'exécute-t-elle ?
+2. quelles valeurs successives prend **value** dans le corps de boucle ?
+3. quelles sont les deux valeurs affichées à la fin ?
