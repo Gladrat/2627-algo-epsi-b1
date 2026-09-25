@@ -1,3 +1,5 @@
+# Exercice — Limiter un volume
+
 def limit_volume(volume):
     if volume < 0:
         return 0
@@ -10,3 +12,14 @@ def limit_volume(volume):
 assert limit_volume(275) == 100
 assert limit_volume(12) == 12
 assert limit_volume(-50) == 0
+
+# Exercice bonus - refactorisation
+
+duration = 99999999
+
+hours = duration // 3600
+remaining = duration % 3600
+minutes = remaining // 60
+secondes = remaining % 60
+
+print(hours, minutes, secondes)
