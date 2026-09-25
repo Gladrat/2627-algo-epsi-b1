@@ -24,4 +24,25 @@ hello()
 hello()
 hello()
 
-# Calculer un tarif de livraison à partir du poids, de la distance et d'une otion express
+# Calculer un tarif de livraison à partir du poids, de la distance et d'une option express
+
+def cout_poids(poids):
+    cout = 0
+    return cout
+
+def cout_distance(distance):
+    cout= 0
+    return cout
+
+def cout_express(option):
+    cout = 0
+    return cout
+
+def cout_total(poids, distance, option):
+    cout = cout_poids(poids) + cout_distance(distance) + cout_express(option)
+    return cout
+
+def imprimer_etiquette_livraison(poids, distance, option):
+    cout = cout_total(poids, distance, option)
+    # imprimer l'étiquette
+
