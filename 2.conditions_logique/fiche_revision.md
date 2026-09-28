@@ -1,5 +1,4 @@
 > 🧠 **À retenir :** une condition produit un booléen et permet au programme de choisir un chemin d'exécution.
-> 
 
 # Concepts clés
 
@@ -15,6 +14,23 @@
 
 # Syntaxe essentielle
 
+Les opérateurs de comparaison produisent un booléen :
+
+```python
+a == b    # égal
+a != b    # différent
+a < b
+a <= b
+a > b
+a >= b
+```
+
+Les opérateurs booléens permettent de combiner des conditions :
+
+- `a and b` est vrai seulement si les deux conditions sont vraies ;
+- `a or b` est vrai si au moins une des deux est vraie ;
+- `not a` inverse le booléen.
+
 ```python
 if condition:
     ...
@@ -24,12 +40,6 @@ elif autre_condition:
 
 else:
     ...
-```
-
-```python
-a and b
-a or b
-not a
 ```
 
 # Réflexes
@@ -47,4 +57,3 @@ not a
 - écrire les cas dans un ordre qui rend une règle plus précise inaccessible.
 
 > ✅ **Je sais faire si :** je peux transformer des règles en booléens, choisir entre `if`, `elif` et plusieurs `if`, puis vérifier les cas frontières.
->
