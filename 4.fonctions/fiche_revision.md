@@ -20,7 +20,11 @@
 def rectangle_area(width, height):
     area = width * height
     return area
+
+result = rectangle_area(4, 3)
 ```
+
+La définition décrit la fonction ; l'appel `rectangle_area(4, 3)` l'exécute avec des valeurs concrètes et récupère ici son résultat.
 
 ```python
 assert rectangle_area(4, 3) == 12
