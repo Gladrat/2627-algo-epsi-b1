@@ -11,7 +11,7 @@
 
 # Outils vus
 
-```
+```text
 17 // 5 = 3   → quotient entier
 17 % 5  = 2   → reste
 ```
