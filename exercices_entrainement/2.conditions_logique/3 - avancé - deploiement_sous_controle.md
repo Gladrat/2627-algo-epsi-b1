@@ -3,6 +3,8 @@
 **Niveau :** avancé  
 **Format :** conception
 
+> **Contexte :** une équipe s'apprête à publier une nouvelle version de son application. Une **branche** représente ici une version de travail du projet et `"main"` désigne la version principale. Un **gel de déploiement** interdit temporairement les publications. Un **hotfix** est une correction urgente qui peut exceptionnellement être publiée pendant ce gel. Il n'est pas nécessaire de connaître Git pour résoudre l'exercice.
+
 Un déploiement est autorisé normalement si :
 
 - les tests passent ;

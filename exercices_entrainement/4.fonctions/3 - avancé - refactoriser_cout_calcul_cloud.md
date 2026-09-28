@@ -3,6 +3,8 @@
 **Niveau :** avancé  
 **Format :** refactorisation
 
+> **Contexte :** on modélise ici un service de calcul facturé selon sa durée d'utilisation. Le mode prioritaire augmente le prix. Un **cache chaud** signifie simplement que l'environnement nécessaire au calcul est déjà prêt ; sinon, un coût de démarrage de 2 € est ajouté. Aucune connaissance du cloud ou des caches n'est nécessaire pour résoudre l'exercice.
+
 Le programme fonctionne, mais mélange plusieurs responsabilités :
 
 ```python

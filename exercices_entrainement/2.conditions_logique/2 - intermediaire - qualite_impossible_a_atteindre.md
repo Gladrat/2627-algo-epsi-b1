@@ -3,6 +3,8 @@
 **Niveau :** intermédiaire  
 **Format :** correction de bug
 
+> **Contexte :** la latence est le délai de réponse d'un service, mesuré ici en millisecondes (ms). Plus elle est faible, plus le service répond rapidement. Pour cet exercice, il suffit d'appliquer les seuils donnés.
+
 On veut classer une latence :
 
 - jusqu'à 50 ms : `"excellent"` ;
