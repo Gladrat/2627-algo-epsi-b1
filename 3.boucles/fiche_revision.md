@@ -8,18 +8,27 @@
 - Un **accumulateur** conserve une somme ou un résultat construit progressivement.
 - `while` convient lorsque le nombre d'itérations n'est pas connu à l'avance.
 - Pour comprendre un `while`, identifier :
-    1. l'état initial ;
-    2. la condition de continuation ;
-    3. la manière dont l'état évolue.
+  1. l'état initial ;
+  2. la condition de continuation ;
+  3. la manière dont l'état évolue.
 - `break` interrompt uniquement la boucle la plus proche.
 - Des boucles imbriquées permettent de parcourir plusieurs dimensions ou combinaisons.
 
 # Syntaxe essentielle
 
 ```python
+range(stop)                # de 0 à stop exclu
+range(start, stop)         # de start à stop exclu
+range(start, stop, step)   # même principe avec un pas
+
 for value in range(1, 6):
     ...
+
+for value in range(0, 10, 2):
+    ...
 ```
+
+La borne `stop` n'est jamais incluse.
 
 ```python
 while condition:
