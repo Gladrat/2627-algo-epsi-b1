@@ -1,5 +1,4 @@
 > 🧠 **À retenir :** une variable représente une valeur utile à un instant donné de l'exécution.
-> 
 
 # Concepts clés
 
@@ -13,16 +12,32 @@
 
 # Syntaxe essentielle
 
-```python
-+  -  *  /  //  %  **
+Les opérateurs arithmétiques vus dans le cours :
 
-int("18")           # Convertir une chaine en nombre entier
-float("12.50")      # Convertir une chaine en nombre flottant
-str("18")           # Convertir un nombre entier en chaine
+- `+` : addition ;
+- `-` : soustraction ;
+- `*` : multiplication ;
+- `/` : division ;
+- `//` : quotient entier ;
+- `%` : reste de la division ;
+- `**` : puissance.
+
+Les multiplications et divisions sont évaluées avant les additions et soustractions. Les parenthèses permettent de rendre l'ordre voulu explicite.
+
+```python
+10 / 3      # division
+10 // 3     # 3
+10 % 3      # 1
+2 ** 3      # 8
+
+int("18")           # convertir une chaîne en entier
+float("12.50")      # convertir une chaîne en nombre décimal
+str(18)             # convertir un nombre en chaîne
 
 raw_age = input("Âge : ")
-age = int(raw_age)          
-# On pense à convertir en int car input() renvoi toujours une chaine
+age = int(raw_age)
+
+type(age)            # inspecter le type d'une valeur
 ```
 
 # Typage
@@ -44,4 +59,3 @@ age = int(raw_age)
 - oublier de convertir une entrée avant un calcul numérique.
 
 > ✅ **Je sais faire si :** je peux suivre l'évolution de variables, évaluer une expression, convertir une donnée et expliquer pourquoi deux représentations visuellement proches peuvent avoir des types différents.
->
