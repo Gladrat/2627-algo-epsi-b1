@@ -71,3 +71,7 @@ def count_neighbor(grid, row, col):
                 
 res = count_neighbor(grid, 1, 2)
 print(res)
+
+assert count_neighbor(grid, 1, 1) == 3
+assert count_neighbor(grid, 0, 0) == 3
+assert count_neighbor(grid, 3, 3) == 10
