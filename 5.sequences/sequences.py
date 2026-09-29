@@ -1,7 +1,33 @@
 # collection ordonnées de 0 à n éléments représentés par leur indice
 
+tab = [10, 12, 13]
+tab.append(18)
+
+print(tab)
+
+for i in tab:
+    print(i)
+
+word = "ALGORITHMIE"
+lettre = word[7]
+
+for lettre in word[::-1]:
+    print(lettre)
+
+print(lettre)
+
 notes_b1 = []
 saisie = True
+
+grid = [
+    ["A", "B", "C"],
+    ["D", "E", "F"],
+    ["H", "I", "J"],
+]
+
+for row in range(len(grid)):
+    for col in range(len(grid[row])):
+        print("Ligne:", row, "Colonne:", col, "Valeur:", grid[row][col])
 
 while saisie:
     nouvelle_note = int(input("Quelle est la note de l'élève ? "))
