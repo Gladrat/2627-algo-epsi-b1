@@ -68,6 +68,7 @@ def count_neighbor(grid, row, col):
                     count += grid[neighbor_row][neighbor_col]
     
     return count
+      
                 
 res = count_neighbor(grid, 1, 2)
 print(res)
